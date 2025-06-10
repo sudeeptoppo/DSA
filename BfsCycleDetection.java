@@ -63,5 +63,6 @@ public class BfsCycleDetection {
 
         boolean hasCycle = isCycle(list, v);
         System.out.println("Graph has cycle: " + hasCycle);
+        System.out.println("helloworls");
     }
 }
