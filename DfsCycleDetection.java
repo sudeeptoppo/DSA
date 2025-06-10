@@ -38,7 +38,7 @@ public class DfsCycleDetection {
         }
 
         // Convert the 2D array to an ArrayList structure
-        int[][] edges = { { 1 }, { 0, 2, 3 }, { 1 }, { 3 } };
+        int[][] edges = { { 1 }, { 0, 2, 3 }, { 1 }, { 1, 2 } };
         for (int i = 0; i < v; i++) {
             for (int j : edges[i]) {
                 list[i].add(j);
